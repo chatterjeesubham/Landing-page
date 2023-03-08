@@ -1,0 +1,148 @@
+body{
+  border:2px red;
+  padding:0;
+  margin:0;
+  color:white;
+  background-image: url("image/bg.jpg");
+  background-size: cover;
+}
+.left{
+
+  display:inline-block;
+  position: absolute;
+  left:30px;
+  top:20px;
+}
+.left div{
+  text-align: center;
+  font-size: 10px;
+
+}
+.left img{
+  width:65px;
+  filter: invert(100%);
+}
+.navbar{
+  display:inline-block;
+}
+.navbar li{
+  display:inline-block;
+  padding-right:35px;
+  font-size: 25px;
+}
+.navbar li a{
+  text-decoration: none;
+  color:white;
+  border:2px solid black;
+}
+.navbar li a:hover{
+  background-color: black;
+  color:white;
+  border:2px solid orange;
+
+}
+.mid{
+
+  width:35%;
+  margin:20px auto;
+}
+.right{
+
+  display:inline-block;
+  position: absolute;
+  right:30px;
+  top:30px;
+}
+.btn {
+  background: #0a0104;
+  background-image: -webkit-linear-gradient(top, #0a0104, #000000);
+  background-image: -moz-linear-gradient(top, #0a0104, #000000);
+  background-image: -ms-linear-gradient(top, #0a0104, #000000);
+  background-image: -o-linear-gradient(top, #0a0104, #000000);
+  background-image: linear-gradient(to bottom, #0a0104, #000000);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7px 14px 7px 15px;
+  border: solid white 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #474646;
+  background-image: -webkit-linear-gradient(top, #474646, #808080);
+  background-image: -moz-linear-gradient(top, #474646, #808080);
+  background-image: -ms-linear-gradient(top, #474646, #808080);
+  background-image: -o-linear-gradient(top, #474646, #808080);
+  background-image: linear-gradient(to bottom, #474646, #808080);
+  text-decoration: none;
+}
+.home{
+  margin-top:100px;
+  margin-left:80px;
+  font-family: 'Alegreya', serif;
+  width:30%;
+  font-size:25px;
+  word-spacing: 10px;
+  font-weight: bolder;
+  line-height: 1.6;
+}
+
+.offer{
+    display:inline-block;
+    margin-left:80px;
+}
+
+ .l2{
+  display:inline-block;
+  filter: invert(100%);
+  border-radius: 100%;
+  width:100px;
+  height:100px;
+}
+.offer span{
+  font-size: 10px;
+  text-decoration:underline;
+  text-decoration-color: orange;
+}
+.buy{
+  margin-left:150px;
+  margin-top: 20px;
+}
+.btn1 {
+  background: #fc589a;
+  background-image: -webkit-linear-gradient(top, #fc589a, #ff0037);
+  background-image: -moz-linear-gradient(top, #fc589a, #ff0037);
+  background-image: -ms-linear-gradient(top, #fc589a, #ff0037);
+  background-image: -o-linear-gradient(top, #fc589a, #ff0037);
+  background-image: linear-gradient(to bottom, #fc589a, #ff0037);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 24px #ff0505;
+  -moz-box-shadow: 0px 1px 24px #ff0505;
+  box-shadow: 0px 1px 24px #ff0505;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #690000 2px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #992e2f;
+  background-image: -webkit-linear-gradient(top, #992e2f, #e47ceb);
+  background-image: -moz-linear-gradient(top, #992e2f, #e47ceb);
+  background-image: -ms-linear-gradient(top, #992e2f, #e47ceb);
+  background-image: -o-linear-gradient(top, #992e2f, #e47ceb);
+  background-image: linear-gradient(to bottom, #992e2f, #e47ceb);
+  text-decoration: none;
+}
+.section{
+  height:500px;
+  width:500px;
+}
